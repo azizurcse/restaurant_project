@@ -1,0 +1,14 @@
+restaurantinformationsystem@gmail.com
+pass:restaurant123
+resinfobackup@gmail.com
+pass: resinfo123
+dhanmondideliveryman@gmail.com
+pass: delivery123
+warideliveryman@gmail.com
+pass: delivery123
+gulshandeliveryman@gmail.com
+pass: delivery123
+bananideliveryman@gmail.com
+pass:delivery123
+uttaradeliveryman@gmail.com
+pass: delivery123

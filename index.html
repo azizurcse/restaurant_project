@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css"/>
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css"/>
+		
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css"/>
+		
+       
+        
+        <title>Restaurant Information System</title>
+		
+		<style>
+		.desgin{
+			margin-right:30px;
+			margin-top:10px;
+			padding-right:20px;
+			font-size:18px;
+			
+		}
+		
+		</style>
+    </head>
+    
+    <body>
+	
+	<!--	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar navbar-header">
+					<a href="#" class="navbar-brand"></a>
+				</div>
+				<ul class="nav navbar-nav navbar-right desgin">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Food</a></li>
+					<li><a href="#">Restaurant</a></li>
+					<li><a href="#">Sign In</a></li>
+					<li><a href="#">Sign Up</a></li>
+					
+				</ul>
+			
+			</div>
+		</div>-->
+		
+		<!--- this is main header -->
+		
+        <header>
+            <nav>
+                <div class="row">
+                    <img src="resources/img/logo_white.png" class="logo"/>
+                    <ul class="main-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="restaurant_page.php">Restaurants</a></li>
+                        <li><a href="food_page.php">Foods</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="registration.php">Sign up</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="hero-text-box">
+            
+                <h1>Here is your restaurants and foods. </h1>
+                <form action="move.php" method="GET" enctype="multipart/form-data">
+                    <input class="search inputdata" type="search" name="search_query" placeholder=""/>
+                    <input  class="submitdata" type="submit" name="search" value="Search"/>
+                </form>
+                <br/><br/>
+                <a class="btn btn-full" href="food_page.php">Order Now</a>
+                <a class="btn btn-ghost" href="#">Show me more</a>
+            </div>
+        </header>
+        
+        <section class="section-features">
+            <div class="row">
+                <h2>Popular Restaurants in Dhaka city</h2>
+               
+            </div>
+        </section>
+        <section class="section-meals">
+            <ul class="meals-showcase clearfix">
+                <li>
+                    <figure class="restaurant-photo">
+                        <img src="resources/img/kfc.jpg"/>
+                    </figure>
+                </li>
+                
+                <li>
+                    <figure class="restaurant-photo">
+                        <img src="resources/img/bfc.jpg"/>
+                    </figure>
+                </li>
+                
+                <li>
+                    <figure class="restaurant-photo">
+                        <img src="resources/img/pizza.jpg"/>
+                    </figure>
+                </li>
+                
+                <li>
+                    <figure class="restaurant-photo">
+                        <img src="resources/img/star_k.jpg"/>
+                    </figure>
+                </li>
+            </ul>
+            
+             <ul class="meals-showcase clearfix">
+                <li>
+                    <figure class="restaurant-photo">
+                        <img src="resources/img/boomers-cafe.jpg"/>
+                    </figure>
+                </li>
+                
+                <li>
+                    <figure class="restaurant-photo">
+                        <img src="resources/img/chap.jpg"/>
+                    </figure>
+                </li>
+                
+                <li>
+                    <figure class="restaurant-photo">
+                        <img src="resources/img/pizza-hut-06.jpg"/>
+                    </figure>
+                </li>
+                
+                <li>
+                    <figure class="restaurant-photo">
+                        <img src="resources/img/takeout.jpg"/>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+         <section class="section-foods">
+            <div class="row">
+                <h2>Popular Foods of Customers</h2>
+               
+            </div>
+        </section>
+        
+        <section class="section-meals">
+            <ul class="meals-showcase clearfix">
+                <li>
+                    <figure class="restaurant-photo">
+                        <img src="resources/img/thai-soup.jpg"/>
+                    </figure>
+                </li>
+                
+                <li>
+                    <figure class="restaurant-photo">
+                        <img src="resources/img/soup.jpg"/>
+                    </figure>
+                </li>
+                
+                <li>
+                    <figure class="restaurant-photo">
+                        <img src="resources/img/Chicken-Burger.jpg"/>
+                    </figure>
+                </li>
+                
+                <li>
+                    <figure class="restaurant-photo">
+                        <img src="resources/img/chinise-food.jpg"/>
+                    </figure>
+                </li>
+            </ul>
+            
+             <ul class="meals-showcase clearfix">
+                <li>
+                    <figure class="restaurant-photo">
+                        <img src="resources/img/fired-chicken.jpg"/>
+                    </figure>
+                </li>
+                
+                <li>
+                    <figure class="restaurant-photo">
+                        <img src="resources/img/kabab.jpg"/>
+                    </figure>
+                </li>
+                
+                <li>
+                    <figure class="restaurant-photo">
+                        <img src="resources/img/fried-rice.jpg"/>
+                    </figure>
+                </li>
+                
+                <li>
+                    <figure class="restaurant-photo">
+                        <img src="resources/img/shik-kabab.jpg"/>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+        
+        <footer>
+             <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Android</a></li>
+                        <li><a href="#">contact us</a></li>
+                    </ul>
+                 </div>
+                 
+                 <div class="col span-1-of-2">
+                    <ul class="social-links">
+                      <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                      <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                      <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                      <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                     </ul>
+                 </div>
+            </div>
+            <div class="row">
+                <p>
+                    Copyright &copy; 2016 by RIS.All right reserved.
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
+
+<?php
+

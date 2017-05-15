@@ -1,0 +1,46 @@
+.orders_i {
+  padding: 1px 9px 2px;
+  font-size: 12.025px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: #ffffff;
+  background-color: #999999;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  border-radius: 13px;
+}
+.orders_i:hover {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.orders_i-error {
+  background-color: #b94a48;
+}
+.orders_i-error:hover {
+  background-color: #953b39;
+}
+.orders_i-warning {
+  background-color: #f89406;
+}
+.orders_i-warning:hover {
+  background-color: #c67605;
+}
+.orders_i-success {
+  background-color: #468847;
+}
+.orders_i-success:hover {
+  background-color: #356635;
+}
+.orders_i-info {
+  background-color: #3a87ad;
+}
+.orders_i-info:hover {
+  background-color: #2d6987;
+}
+.orders_i-inverse {
+  background-color: #333333;
+}
+.orders_i-inverse:hover {
+  background-color: #1a1a1a;
+}

@@ -1,0 +1,408 @@
+
+/* ------------------*/
+/* BASIC sETUP*/
+/* ------------------*/
+
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato','Arial',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+}
+
+
+.clearfix{zoom:1}
+.clearfix:after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* ------------------*/
+/* REUSABLE COMPONENTS*/
+/* ------------------*/
+
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+section{
+    
+    padding: 30px 0;
+}
+
+/* ------------------*/
+/* HEADING*/
+/* ------------------*/
+
+
+
+
+h1,
+h2{
+    
+   
+    
+    
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+}
+
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/* ------------------*/
+/* BUTTON*/
+/* ------------------*/
+
+
+.btn:link,
+.btn:visited,
+input[type=submit]{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s,border 0.2s, color 0.2s;
+   
+    
+}
+
+
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit]{
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 15px;
+    
+}
+
+
+
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid #e67e22;
+     color: #e67e22;
+}
+
+
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active{
+   background-color: #cf6d17;
+    
+}
+
+
+
+.btn-full:hover,
+.btn-full:active{
+   
+    border: 1px solid #cf6d17;
+    
+    
+}
+
+
+
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    border: 1px solid #cf6d17;
+     color: #fff;
+}
+
+
+/* ------------------*/
+/* HEADER AREA*/
+/* ------------------*/
+
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/slide.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* ------------------*/
+/* logo*/
+/* ------------------*/
+
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+
+/* ------------------*/
+/* nav bar*/
+/* ------------------*/
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #e67e22;
+}
+
+.search{
+    margin: 0;
+    margin-left: 30px;
+    padding:3px;
+    
+    width: 50%;
+}
+
+
+.submitdata{
+    margin-left: 20px;
+    padding: 5px;
+    
+    width: 20%;
+    border: 1px solid #e67e22;
+    border-radius: 10px;
+}
+
+
+/* ------------------*/
+/* restaurant*/
+/* ------------------*/
+
+.section-meals{
+    padding: 0;
+}
+
+
+.meals-showcase{
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+    
+}
+
+
+.restaurant-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    
+}
+
+.restaurant-photo img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s,opacity 0.5s;
+}
+
+.restaurant-photo img:hover{
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+
+/* ------------------*/
+/* sign up*/
+/* ------------------*/
+
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+select,
+textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea{
+    height: 100%;
+}
+
+input[type=radio]{
+    margin: 10px 5px 10px 0;
+}
+
+
+/* ------------------*/
+/* footer*/
+/* ------------------*/
+footer{
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+    margin-top: 20px;
+    
+}
+
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+
+.social-links{
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li{
+    display: inline-block;
+    margin-right: 20px;
+	
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child{
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active{
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited{
+    font-size: 160%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram{
+    transition: color 0.2;
+}
+
+.ion-social-facebook:hover{
+    color: #3b5998;
+}
+
+.ion-social-twitter:hover{
+    color: #00aced;
+}
+
+.ion-social-googleplus:hover{
+    color: #dd4b39;
+}
+
+.ion-social-instagram:hover{
+    color: #517fa4;
+}
+
+
+
+
+
+
+footer p{
+    color: #888;
+    text-align: center;
+    
+    margin-top: 20px;
+}
+
+
